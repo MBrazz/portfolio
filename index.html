@@ -10,6 +10,7 @@
   <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
   <script defer type="module" src="./assets/js/scrollRevealConfig.js"></script>
   <script defer type="text/javascript" src="./assets/js/script.js"></script>
+  <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
 
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -48,7 +49,7 @@
     <section class="home" id="home">
       <div class="presentation">
         <h1>Olá, meu nome é <span>Mateus Braz</span></h1>
-        <h2>Desenvolvedor Front End</h2>
+        <h2 id="typeWriter"></h2>
         <a target="_blank" href="https://www.linkedin.com/in/mateus-braz/"><button>LinkedIn</button></a>
         <a target="_blank" href="https://github.com/MBrazz"><button>Github</button></a>
       </div>
@@ -69,16 +70,27 @@
         <h2><span></span>Sobre mim</h2>
 
         <p>Ferraz de Vasconcelos - SP</p>
+        
+        <div class="formacao">
+          <h3>Formação Acadêmica</h3>
+          <ul>
+              <li><strong>Curso Técnico em Desenvolvimento de Sistemas</strong> (2021) – SENAI</li>
+              <li><strong>Graduação em Análise e Desenvolvimento de Sistemas</strong> (2023) – Universidade de Mogi das Cruzes</li>
+              <li>Atualmente cursando <strong>MBA em Engenharia de Software</strong> (2025) – USP/Esalq</li>
+          </ul>
+        </div>
 
-        <p>
-          Mateus Braz Almeida de Sousa, tenho 20 anos, sou técnico formado em Desenvolvimento de Sistemas
-          pelo Senai, trabalhei 4 meses na área com foco em manutenções e melhorias de sites em front end,
-          atualmente cursando o último semestre de Ánalise e Desenvolvimento de Sistemas na Universidade
-          de Mogi das Cruzes (UMC). <br />
-          Sou criativo, responsável e inovador, gosto de materializar visualmente minhas ideias, por conta
-          disso me identifico com design e desenvolvimento front end, mas independente do que me for proposto,
-          certamente darei o meu melhor.
-        </p>
+        <div class="experiencia">
+          <h3>Experiência Profissional</h3>
+          <ul>
+              <li><strong>Estagiário em TI</strong> (2022) – AppCargo  
+                  <p>Atuei na manutenção de sites, trabalhando no back-end com PHP e JavaScript. Também implementei melhorias de SEO e fiz alterações no layout no front-end, além de desenvolver e manter robôs web utilizando Python.</p>
+              </li>
+              <li><strong>Desenvolvedor Full Stack</strong> (2023) – Sync360  
+                  <p>Responsável pela manutenção e criação de novas funcionalidades para sites e sistemas, utilizando tecnologias como PHP Laravel, Vue.js, Docker, MySQL e PostgreSQL. Contribuí tanto no desenvolvimento back-end quanto nas melhorias de experiência do usuário no front-end.</p>
+              </li>
+          </ul>
+        </div>
 
         <p>Para mais informações sobre mim acesse os links abaixo.</p>
         <div class="row">
@@ -223,7 +235,7 @@
   </main>
 
   <footer>
-    <p>© 2023 - Feito com ❤️ por Mateus Braz</p>
+    <p>© 2024 - Desenhado e desenvolvido por Mateus Braz</p>
   </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.js"

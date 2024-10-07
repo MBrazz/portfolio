@@ -240,6 +240,19 @@ main {
 .info {
   grid-column: 3;
   padding: 0rem 0 3rem 0;
+  color: #6fc5ff;
+}
+
+.info li {
+  list-style-type: circle !important;
+}
+
+.info ul {
+  padding: 0.5rem 0 0.5rem 2rem;
+}
+
+.info .formacao {
+  padding-bottom: 1rem;
 }
 
 .info span {
