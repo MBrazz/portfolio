@@ -212,7 +212,7 @@ main {
   background-color: #212b66;
   margin: 0rem 0 0 0;
   color: #09a7f0;
-  padding: 6.5rem 0 0 0;
+  padding: 5.5rem 0 1rem 0;
 }
 
 .image {
@@ -239,7 +239,6 @@ main {
 
 .info {
   grid-column: 3;
-  padding: 0rem 0 3rem 0;
   color: #6fc5ff;
 }
 
@@ -396,7 +395,7 @@ main {
 .project-info {
   grid-column: 3/4;
   background-color: #212b66;
-  padding: 3.125rem;
+  padding: 2rem 3.125rem 2.5rem;
   border-radius: 10px;
   width: 470px;
   height: fit-content;
@@ -973,7 +972,7 @@ footer p {
 
 @media screen and (max-width: 1020px) {
   .about {
-    padding-top: 4rem;
+    padding: 4rem 0 3rem 0;
     grid-template-columns:
       minmax(60px, 1.3fr) 215px 9.5fr
       minmax(60px, 1.3fr);
@@ -1031,7 +1030,7 @@ footer p {
   .project-info {
     grid-column: 3/4;
     background-color: #212b66;
-    padding: 3.125rem;
+    padding: auto 3.125rem;
     border-radius: 10px;
     width: 470px;
     height: fit-content;
@@ -1287,6 +1286,15 @@ footer p {
   .contact-info p {
     font-size: 16px;
   }
+}
+
+/* Forçar tema claro */
+@media (prefers-color-scheme: dark) {
+  body {
+      background-color: rgba(249, 250, 251, 0.85);
+      color: inherit;
+  }
+
 }
 
 /**
